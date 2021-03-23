@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="103dp"
+        android:layout_height="160dp"
+        android:layout_margin="1dp"
+        android:padding="10dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="left"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_margin="4dp"
+        android:text="Poids"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/EditTextPoids"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:textColor="@color/purple_500"
+        android:text=""
+        android:textAlignment="center"
+        android:layout_margin="4dp"
+        />
+
+    <TextView
+        android:layout_height="50dp"
+        android:layout_width="140dp"
+        android:layout_margin="4dp"
+        android:text="Taille"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        />
+    <EditText
+        android:id="@+id/EditTextTaille"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:textColor="@color/purple_500"
+        android:text=""
+        android:textAlignment="center"
+        android:layout_margin="4dp"
+        />
+
+    <Button
+        android:id="@+id/ButtonCalculer"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="Calculer"
+        android:layout_margin="4dp"
+        />
+
+    <TextView
+        android:id="@+id/TextViewResult"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+
+        />
+</LinearLayout>
